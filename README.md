@@ -11,7 +11,7 @@
 
   E-THRILLHUB is a fully responsive social media website, <br />Responsive for all devices, build using Flask, Python, MongoDB, HTML, CSS, and JavaScript.
 
-  <a href=""><strong>➥ Live Demo</strong></a>
+  <a href="https://ndefoafam.github.io/E-THRILLHUB/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ### Demo Screeshots
 
-![Wren Desktop Demo](./assets/images/ETHRILL.png "Desktop Demo")
+![E-THRILLHUB Desktop Demo](./assets/images/ETHRILL.png "Desktop Demo")
 
 ### Prerequisites
 
