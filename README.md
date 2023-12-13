@@ -9,11 +9,11 @@
   <br />
   <br />
 
-  <h2 align="center">Wren - Personal Blog Website</h2>
+  <h2 align="center">E-THRILLHUB</h2>
 
-  Wren is a fully responsive personal blog website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  E-THRILLHUB is a fully responsive social media website, <br />Responsive for all devices, build using Flask, Python, MongoDB, HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/wren/"><strong>➥ Live Demo</strong></a>
+  <a href=""><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Wren Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Wren Desktop Demo](./assets/images/ETHRILL.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Wren** locally, run this command on your git bash:
+To run **E-THRILLHUB** locally, run this command on your git bash:
 
 Linux and macOS:
 
