@@ -46,7 +46,7 @@ git clone https://github.com/codewithsadee/wren.git
 ### Contact
 
 If you want to contact us you can reach us at [Linkedin](https://www.linkedin.com/in/ndefoafam).
-If you want to contact us you can reach us at [Linkedin](https://www.linkedin.com/in/ndefoafam).
+or[Linkedin](https://www.linkedin.com/in/ndefoafam).
 
 ### License
 
