@@ -2,7 +2,7 @@
   
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/NdefoAfam_?style=social)](https://twitter.com/intent/follow?screen_name=NdefoAfam_)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![Twitter Follow](https://img.shields.io/twitter/follow/NwanzeJustin_?style=social)](https://twitter.com/intent/follow?screen_name=NwanzeJustin_)
 
   <br />
   <br />
