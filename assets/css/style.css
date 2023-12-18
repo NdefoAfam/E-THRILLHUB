@@ -727,6 +727,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: center;
 }
 
 .feature-card {
@@ -972,70 +973,65 @@ ol {
 .insta-post { border-radius: var(--radius-8); }
 
 
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
-.footer {
-  padding-inline: 20px;
-  border-radius: var(--radius-48);
-  color: var(--text-wild-blue-yonder);
-  margin-block-end: 24px;
+/* Basic styles for the comment section */
+.comment-section {
+  width: 80%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
 }
 
-.footer-top {
-  display: grid;
-  gap: 20px;
+.comment-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
 }
 
-.footer-brand .footer-text { font-size: var(--fontSize-6); }
-
-.footer-text:not(.address) { margin-block: 20px; }
-
-.footer-brand .footer-list-title { margin-block-end: 2px; }
-
-.footer-list-title {
-  color: var(--text-columbia-blue);
-  font-size: var(--fontSize-3);
-  margin-block-end: 30px;
+.comment-form button {
+  padding: 8px 16px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  background-color: aqua;
+  color: #fff;
+  cursor: pointer;
 }
 
-.footer-list ul { columns: 2; }
-
-.footer-link { margin-block-end: 12px; }
-
-.footer .input-wrapper {
-  position: relative;
-  margin-block-end: 24px;
+.comments {
+  list-style: none;
+  padding: 0;
 }
 
-.footer .input-field {
-  padding: 12px;
-  padding-inline-start: 20px;
-  border-block-end: 1px solid var(--text-wild-blue-yonder);
-  font-size: var(--fontSize-6);
+.comment {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
 }
 
-.footer .input-field::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.5;
+.comment p {
+  margin: 5px 0;
 }
 
-.footer .input-wrapper ion-icon {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  --ionicon-stroke-width: 40px;
-}
+.love-button {
+      width: 60px; /* Adjust the width */
+      height: 30px; /* Adjust the height */
+      gap: -30px; /* Adjust the gap between icons */
+      color: #0ea5ea;
+      border-radius: 4px;;
+      font-size: 16px; /* Adjust the font size */
+      text-align: center;
+      line-height: 30px; /* Match the height for vertical alignment */
+      cursor: pointer;
+      display: inline-flex; /* Align icon and text horizontally */
+      align-items: center; /* Align icon and text vertically */
+      justify-content: center;
+    }
 
-.footer-bottom {
-  border-block-start: 1px solid var(--border-prussian-blue);
-  padding-block: 50px;
-}
+    .liked {
+      background-color: red;
+      color: white;
+    }
 
 .copyright {
   text-align: center;
@@ -1065,6 +1061,22 @@ ol {
 .social-link:is(:hover, :focus-visible) {
   color: var(--text-carolina-blue);
   transform: translateY(-2px);
+}
+
+/* CSS for the profile picture */
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.profile-picture img {
+  width: 100px; /* Set the width of the profile picture */
+  height: 100px; /* Set the height of the profile picture */
+  border-radius: 50%; /* Make the image circular */
+  border: 3px solid #fff; /* Add a border and adjust color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
 
 

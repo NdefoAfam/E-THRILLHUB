@@ -16,7 +16,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/E-THRILL.png" type="image/svg+xml">
 
   <!-- 
     - google font link
@@ -134,14 +134,15 @@
         }
     
         form input {
-            margin: 0.5rem;
-            border: none;
-            height: 30px;
-            border: 1px solid lightblue;
-            outline: none;
-            padding: 5px;
-            border-radius: 5px;
-        }
+          margin: 0.5rem;
+          border: none;
+          height: 30px;
+          border: 1px solid lightblue;
+          outline: none;
+          padding: 5px;
+          border-radius: 5px;
+          margin-left: -2px;
+      }
     
         textarea {
             font-family: monospace;
@@ -351,19 +352,19 @@
     <label for="linkpost" id="label-link">
         <i class="fa fa-link" aria-hidden="true"></i>
     </label>
-    <input type="url" name="linkpost" id="linkpost">
+    <input type="url" name="linkpost" id="linkpost" style="margin-left: -0.5px">
     <label for="imagepost" id="label-image">
         <i class="fa fa-picture-o" aria-hidden="true"></i>
     </label>
-    <input type="file" name="imagepost" id="imagepost">
+    <input type="file" name="imagepost" id="imagepost" >
     <label for="tags" id="label-tags">
         <i class="fa fa-tag" aria-hidden="true"></i>
     </label>
-    <input type="text" name="tags" id="tags">
+    <input type="text" name="tags" id="tags" style="margin-left: -0.5px">
     <div id="show-img">
-        <span class="close img-close">×</span>
+        <span class="close img-close"></span>
     </div>
-    <button type="submit">Post</button>
+    <button type="submit" style="margin-top: 7px;">Post</button>
 </form>
 
   
