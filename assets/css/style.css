@@ -356,7 +356,7 @@ ol {
 .headline-2 { font-size: var(--fontSize-2); }
 
 .headline-3 {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-5);
   line-height: var(--lineHeight-2);
 }
 
